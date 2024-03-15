@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background: url('5219953.webp') no-repeat center;
+}
+#root{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 4rem;
+    font-weight: 600px;
+    color: white;
+    margin: 2rem;
+}
+form{
+    width: 55%;
+}
+input{
+    width: 75%;
+    font-size: 1.5rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 8px;
+    border: none;
+}
+.submit{
+    background-color:#f9db54;;
+    font-size: 1.5rem;
+    border-radius: 26px;
+    border: 1px solid #f9db54be;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    
+}
+.submit:hover{
+    background-color: rgb(86, 255, 94);
+    cursor:pointer;
+    transform: scale(1.1);
+    transition:ease-in-out transform 0.3s;
+}
+h2{
+    font-size:2.5rem ;
+    color: white;
+    font-weight: 500px;
+    margin-bottom: 2rem;
+}
+ul{
+    width: 50%;
+}
+li{
+    list-style: none;
+    background-color: #f8dc63;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    margin: 0.5rem;
+}
+li div{
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding: 1rem;
+    margin-right: 2rem;
+    width: 87%;
+}
+li button{
+background-color:#f76539;;
+font-size: 2.0rem;
+border-radius: 5px;
+border: 1px solid #f8dc63;
+height: 10vh;
+width: 10%;
+}
+li button:hover{
+    background-color: rgb(252, 0, 0);
+    cursor:pointer;
+    transform: scale(1.1);
+    transition:ease-in-out transform 0.3s;
+}
